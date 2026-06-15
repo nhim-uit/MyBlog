@@ -3,3 +3,4 @@ Werkzeug
 SQLAlchemy
 Flask-Bootstrap
 WTForms
+gunicorn app:app
