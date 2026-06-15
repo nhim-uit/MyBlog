@@ -1,6 +1,6 @@
-Flask
-Werkzeug
-SQLAlchemy
+Flask==3.0.0
+Werkzeug==3.0.1
+SQLAlchemy==2.0.25
+WTForms==3.1.2
+gunicorn==21.2.0
 Flask-Bootstrap
-WTForms
-gunicorn app:app
