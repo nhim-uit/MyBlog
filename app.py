@@ -15,7 +15,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from sqlalchemy import Integer, String, Text
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
-from flask_bootstrap import Bootstrap5
+from flask_bootstrap import Bootstrap
 from werkzeug.security import check_password_hash
 from wtforms.fields.simple import StringField, SubmitField
 from wtforms.validators import DataRequired
@@ -23,7 +23,7 @@ from wtforms.validators import DataRequired
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'asdsadkjgh976897asd'
 ckeditor = CKEditor(app)
-Bootstrap5(app)
+Bootstrap(app)
 
 
 # Create database
