@@ -4,3 +4,8 @@ SQLAlchemy==2.0.25
 WTForms==3.1.2
 gunicorn==21.2.0
 Flask-Bootstrap
+Flask-CKEditor
+Flask-Gravatar
+Flask-Login
+Flask-SQLAlchemy
+Flask-WTF
