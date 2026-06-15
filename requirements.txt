@@ -8,5 +8,4 @@ Flask-Bootstrap
 Flask-CKEditor
 Flask-Gravatar
 Flask-Login
-Flask-SQLAlchemy
 Flask-WTF
